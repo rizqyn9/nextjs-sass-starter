@@ -12,17 +12,25 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          My
+          A Sass
           {' '}
-          <a href="https://nextjs.org">Next.js!</a>
+          <a href="https://nextjs.org">Next.js</a>
           {' '}
           Starter
+          {' '}
+          Project
         </h1>
 
         <p className={styles.description}>
-          Get started by editing
+          Customizing this template is easy
+          <span id="easy" role="img" aria-label="Red exclaimation emoji">❗️</span>
+        </p>
+        <p className={styles.description}>
+          Start with the
           {' '}
           <code className={styles.code}>pages/index.js</code>
+          {', '}
+          and new pages in the pages directory, and Next.js takes care of the routing.  Cool, huh? 😎
         </p>
 
         <div className={styles.grid}>
