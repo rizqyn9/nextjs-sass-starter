@@ -30,7 +30,7 @@ export default function Home() {
           {' '}
           <code className={styles.code}>pages/index.js</code>
           {', '}
-          and new pages in the pages directory, and Next.js takes care of the routing.  Cool, huh? 😎
+          add new pages in the pages directory, and Next.js takes care of the routing.  Cool, huh? 😎
         </p>
 
         <div className={styles.grid}>
