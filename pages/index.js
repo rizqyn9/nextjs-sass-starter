@@ -12,27 +12,56 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          A Sass
-          {' '}
-          <a href="https://nextjs.org">Next.js</a>
-          {' '}
-          Starter
-          {' '}
-          Project
+          <a
+            href="https://github.com/digitalgnome/nextjs-sass-starter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            A Sass Next.js Starter Project
+          </a>
         </h1>
 
         <p className={styles.description}>
-          Customizing this template is easy
-          <span id="easy" role="img" aria-label="Red exclaimation emoji">❗️</span>
+          This Next.js starter template has support for Sass. Customizing this template is easy
+          <span id="easy" role="img" aria-label="red exclaimation emoji">❗️</span>
         </p>
         <p className={styles.description}>
           Start with the
           {' '}
           <code className={styles.code}>pages/index.js</code>
           {', '}
-          add new pages in the pages directory, and Next.js takes care of the routing.  Cool, huh? 😎
+          add new pages in the pages directory, and Next.js takes care of the routing.
+          <br />
+          Cool, huh?
+          {' '}
+          <span role="img" aria-label="smiling face with sunglasses">😎</span>
         </p>
+        <p className={styles.description}>
+          <span role="img" aria-label="thumbs up">👍</span>
+          {' '}
+          To use this starter run the following commands. The README of the
+          {' '}
+          <a
+            href="https://github.com/digitalgnome/nextjs-sass-starter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            repo
+          </a>
+          {' '}
+          has more details.
+        </p>
+        <pre>
+          <code className={styles.code}>
+            yarn create next-app my-app -e https://github.com/digitalgnome/my-nextjs-starter
+            <br />
+            # or
+            <br />
+            npx creat-next-app my-app -e https://github.com/digitalgnome/my-nextjs-starter
+          </code>
+        </pre>
 
+        <h2 className={styles.h2}>Next.js Resources</h2>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
@@ -53,7 +82,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://vercel.com/"
             className={styles.card}
           >
             <h3>Deploy &rarr;</h3>
@@ -66,13 +95,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/digitalgnome/nextjs-sass-starter"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by
+          Github Project Repo
           {' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/DigitalGnome.png" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
